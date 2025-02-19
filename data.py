@@ -62,8 +62,16 @@ for y in range(1, x+1):
         factor.append(y)
 print(factor) """
 
+"""  import math
 print("give 2 numbers")
-x = int(input()), int(input())
-gcf = y in range(1, x+1)
-if x % y == 0:
-    print x
+x = int(input())
+y = int(input())
+gcf = math.gcd(x, y)
+print(gcf)
+ """
+
+""" x = float(input())
+y = int(input())
+z = abs(x + y)
+print(f"The total will be ${z}") """
+
