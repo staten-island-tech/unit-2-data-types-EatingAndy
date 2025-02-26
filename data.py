@@ -62,13 +62,13 @@ for y in range(1, x+1):
         factor.append(y)
 print(factor) """
 
-"""  import math
+""" import math
 print("give 2 numbers")
 x = int(input())
 y = int(input())
 gcf = math.gcd(x, y)
-print(gcf)
- """
+print(gcf) """
+
 
 """ x = float(input())
 y = int(input())
