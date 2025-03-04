@@ -62,12 +62,20 @@ for y in range(1, x+1):
         factor.append(y)
 print(factor) """
 
-""" import math
-print("give 2 numbers")
-x = int(input())
-y = int(input())
-gcf = math.gcd(x, y)
-print(gcf) """
+def factor():
+    number = int(input())
+    while True:
+        gcf = input()
+        if gcf == 'calculate gcf':
+            break
+        gcf = int(gcf)
+        Range = range(1, 9999)
+        for number in Range:
+            if number % number in Range == 0:
+                print(Range('number'))
+factor()
+
+    
 
 
 """ x = float(input())
